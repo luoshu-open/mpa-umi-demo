@@ -56,3 +56,7 @@ export const config = {
 
 - nodejs v18.20.3
 - 包管理器 pnpm (umijs推荐， 怕报错)
+
+# 工程代码
+github:  https://github.com/luoshu-open/mpa-umi-demo.git
+gitee:   https://gitee.com/bailuoo/mpa-umi-demo.git
