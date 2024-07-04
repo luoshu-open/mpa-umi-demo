@@ -11,5 +11,8 @@ export default defineConfig({
     getConfigFromEntryFile: true, // 使用每个 mpa的配置
     template: 'templates/mpa_default.html',
     layout: '@/layouts/emptyLayout', //使用父的布局文件
-  }
+  },
+  plugins: [
+    './script/plugins/ArrangeDistFilePlugin.ts' // 对 dist 目录的文件进行整理,相同的文件名(不包含后缀), 全部移到同一个文件夹
+  ]
 });
